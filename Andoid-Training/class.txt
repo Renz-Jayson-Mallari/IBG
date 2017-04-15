@@ -1,0 +1,16 @@
+ CLASS
+ 
+	-- https://docs.oracle.com/javase/tutorial/java/concepts/class.html
+	
+Class names = Word
+			= WordAdapter extends ArrayAdapter
+				to override , highlight the curly brackets-- code tabs -- override methods --getView
+				
+CUSTOMIZE ArrayAdapter
+		https://github.com/udacity/ud839_CustomAdapter_Example
+		
+		
+		  @Override
+    public View getView(int position, View counterview, ViewGroup parent) {
+        return super.getView(position,counterview,parent);
+    }

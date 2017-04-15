@@ -1,0 +1,26 @@
+DRAWABLE FOLDRES
+
+		each folder has different resolution devices
+			-- medium density
+			-- high density
+			-- extra extra high density on so on.
+			
+
+	devices size -- https://material.io/devices/
+	
+	desity-- number of pixel on physical area of the screen.
+	dpi -- DOTS per inch.
+	
+	DENSITY BUCKETS							DOTS/INCH		 PIXELS			CALCULATION
+		-- mdpi 	(medium)			 	 ~160 dpi		--48x48px		1dp=1px
+		-- hdpi 	(high) 				 	 ~240 dpi		--72x72px		1dp=1.5px
+		-- xhdpi 	(extra-high) 			 ~320 dpi		--96x96px		1dp=2px
+		-- xxhdpi 	(extra-extra-high) 		 ~480 dpi		--180x180px	    1dp=3px
+		-- xxxhdpi 	(extra-extra-extra-high) ~640 dpi		--192x192px		1dp=4px
+		
+		
+	R.drawable.id == int
+		
+	
+		
+		

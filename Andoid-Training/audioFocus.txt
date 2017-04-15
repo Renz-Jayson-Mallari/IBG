@@ -1,0 +1,96 @@
+AUDIO FOCUS -- https://developer.android.com/reference/android/media/AudioManager.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+
+https://developer.android.com/reference/android/media/AudioManager.OnAudioFocusChangeListener.html --listener
+
+how to properly handle audio focus
+https://medium.com/google-developers/how-to-properly-handle-audio-interruptions-3a13540d18fa#.cg2x1sw4v
+
+STEPS
+	ex
+		NumberActivity.java
+			private AudioManager mAudioMAnager;
+			
+Oncreate
+				// Create and setup the request to Audio focus
+				mAudioMAnager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+				
+Request Audio Focus before creating media player
+			
+			int result = mAudioManager.requestAudioFocus(afCahngeListener,
+					// Use the music Stream
+					AudioManager.STREAM_MUSIC,
+					// Request permanent focus
+					AudioManager.AUDIOFOCUS_GAIN);
+					
+			if(result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+				mAudioMAnager.registerMediaButtonEventReciever(RemoteControlReciever);
+				//Start playback.
+			}
+	
+3 parameter 
+		listener
+		streamtype
+		how long we need to request audio for
+			
+AUDIOFOCUS_GAIN - request audio focus for long unknown duration period(playing a music song).
+AUDIOFOCUS_GAIN_TRANSIENT(short audioclip. 1to2 sec.).
+
+AudioFocusListener as global variable
+
+		AudioManager.OnAudioFocusChangeListener mOnAudiofocusChangeListener = 
+			new AudioManager.OnAudioFocusChangeListener(){
+			
+				public void onAudioFocusChange(int focusChange){
+				
+					if(focusChange == AudioManager.AUDIO_LOSS_TRANSIENT ||
+							focusChange == AudioManager.AUDIO_LOSS_TRANSIENT_CAN_DUCK ){
+						//Pause playback
+						mMediaPlayer.pause();
+						mMediaPLayer.seekTo(0);	
+					}
+					else if(focusChange == AudioManager.AUDIOFOCUS_GAIN){
+						//Resume Playback
+						mMediaPLayer.start();
+					}
+					else if(focusChange == AudioManager.AUDIOFOCUS_LOSS){
+						//stop playback and cleanup resources
+						releaseMediaPlayer;
+					}
+				
+				}
+			
+			}
+			
+ABANDON AUDIOFOCUS
+	
+		on the relaeseMediaPlayer add on the if statement
+			
+			// abandon Audio focus when playback is completed.
+			mAudioMAnager.abandonAudioFocus(mOnAudiofocusChangeListener);
+			
+
+LINKS
+	
+	solution from learn about audio focus -- https://docs.google.com/document/d/11LgNsw9YXuBJubnQaRCIH-WZfiGbWMiaaueuKdwb5fE/pub
+	solution from request audio focus quiz -- https://docs.google.com/document/d/1uCVf6phRJYTzYycZ2zyreFXqvs6sJG-kUN_JjQCqVUo/pub
+	solution from audio focus statea quiz -- https://docs.google.com/document/d/1JHliOqs-YRKzxGMinUSNjVgg1hgvE3r2uVcedD3JUV8/pub
+	
+	
+
+    How to properly handle audio interruptions -- https://medium.com/google-developers/how-to-properly-handle-audio-interruptions-3a13540d18fa#.jkibca8ml
+	Managing Audio Focus -- https://developer.android.com/guide/topics/media-apps/volume-and-earphones.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+	
+	AudioManager -- https://developer.android.com/reference/android/media/AudioManager.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+	OnAudioFocusStateChangeListener -- https://developer.android.com/reference/android/media/AudioManager.OnAudioFocusChangeListener.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+	
+	These are the changes needed to complete the quiz (GITHUB CODES)
+	https://github.com/udacity/ud839_Miwok/commit/2b548eae0e57d7ad0cbb9c77656fd24215ec6cb4
+	
+	This is the state of the code after completing the quiz.
+	https://github.com/udacity/ud839_Miwok/tree/2b548eae0e57d7ad0cbb9c77656fd24215ec6cb4
+	
+	http://emojione.com/
+			
+				
+			
+		

@@ -1,0 +1,77 @@
+Android Development
+
+MATERIAL DESIGN
+	https://material.io/guidelines/material-design/introduction.html
+	
+	tips
+	https://plus.google.com/+AndroidDevelopers/posts/gQuBtnuk6iG
+	
+	ImageView 
+		
+		<ImageView
+    android:src="@drawable/cake"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"/>
+	
+	REFERENCE(documentation as a resource)
+	https://developer.android.com/reference/
+	
+	sp - text-size
+	dp - sizes
+	orientation -- horizontal and vertical
+	
+	Linear-layout::
+		layout_weight--> distribute free space to childs
+		horizontal --> set the width 0dp and give layout_weight assignment.
+		vertical --> set the height 0dp and give layout_weight assignment.
+		
+	Relative_layout:: false by default
+	Documentation --> search for relative layout layoutparams
+		
+		layout_alignParentTop="true or false"
+		layout_alignParentBottom="true or false"
+		layout_alignParentLeft="true or false"
+		layout_alignParentRight="true or false"
+		layout_centerHorizontal="true or false"
+		layout_centerVertical="true or false"
+		
+	Using Id views to allign views
+		ex
+		android:id="@+id/ben_text_view"
+		android:layout_toLeftOf="@id/ben_text_view"
+		android:layout_above="@id/ben_text_view"
+		android:layout_below="@id/ben_text_view"
+		
+		
+	ImageView -- extension is not needed "jpg"
+		android:src="@drawable/androidParty"
+		
+		code link -- https://gist.github.com/udacityandroid/7a9b5288975819fa2c25
+		picture -- https://discourse-cdn.global.ssl.fastly.net/udacity/uploads/default/original/3X/1/2/1277985cc392d405031be59b67fbf0892cd8bc19.jpg
+		image reszing -- http://www.picresize.com/
+		CHEAT SHEET -- https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
+		
+		ex -- android:scaleType="center"
+	
+	TextView -- ex
+		sample fontsize =  36sp
+		android:fontFamily="san-serif-light"
+		 android:textColor="@android:color/white"
+		 
+		 
+project -- first view bg color -- #87153A
+android:background="@android:drawable/dialog_holo_light_frame"
+
+
+post link to visit
+	g+ --> https://plus.google.com/+AndroidDevelopers
+	twitter --> https://twitter.com/AndroidDev
+	youtube --> https://www.youtube.com/user/GoogleDevelopers
+	
+	blogs
+		--> https://blog.stylingandroid.com/
+		--> https://chris.banes.me/
+		-->  http://fragmentedpodcast.com/
+		
+		

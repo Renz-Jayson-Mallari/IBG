@@ -1,0 +1,20 @@
+Log file created: 5/1/2016 10:03:53 AM
+----------------------------------------
+Ticks = 3328      <4660> <AMEApp> <0> Dolby codec permission check failed
+Ticks = 3812      <4660> <DynamicLink> <5> Attempting to launch dynamiclinkmanager
+Ticks = 3812      <4660> <DynamicLink> <5> C:\Program Files\Adobe\Adobe Media Encoder CC 2015\32\dynamiclinkmanager.exe
+Ticks = 4703      <4660> <DynamicLink> <5> Attempting to launch dynamiclinkmanager
+Ticks = 4703      <4660> <DynamicLink> <5> C:\Program Files\Adobe\Adobe Media Encoder CC 2015\32\dynamiclinkmanager.exe
+Ticks = 5703      <4660> <DynamicLink> <5> Attempting to launch dynamiclinkmanager
+Ticks = 5703      <4660> <DynamicLink> <5> C:\Program Files\Adobe\Adobe Media Encoder CC 2015\32\dynamiclinkmanager.exe
+Ticks = 103125      <4660> <AMEApp> <0> Time taken to load MediaCore plugins: 89824.6 milliseconds.
+Ticks = 106578      <4660> <AMEApp> <1> Entering RunEventLoop
+Ticks = 140797      <5604> <AMEFrontend> <5> PresetUI was unable to load the preset HD 720p 24, H.264, AAC 48 kHz
+Ticks = 140844      <2072> <AMEFrontend> <5> PresetUI was unable to load the preset HD 1080i 25, H.264, AAC 48 kHz
+Ticks = 140890      <3920> <AMEFrontend> <5> PresetUI was unable to load the preset HD 1080i 29.97, H.264, AAC 48 kHz
+Ticks = 141187      <5604> <AMEFrontend> <5> PresetUI was unable to load the preset NTSC, H.264, AAC 48 kHz
+Ticks = 141359      <3920> <AMEFrontend> <5> PresetUI was unable to load the preset PAL, H.264, AAC 48 kHz
+Ticks = 164015      <4660> <AMEApp> <1> Exited RunEventLoop
+-----------------------------------------
+Log file closed: 5/1/2016 10:06:40 AM
+

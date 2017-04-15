@@ -1,0 +1,36 @@
+Android UI
+
+Android UI design --  http://androidniceties.tumblr.com/
+more design -- https://pttrns.com/android-patterns?srtby=popularity_desc
+
+Screen diagram and pattern --
+ https://developer.android.com/training/design-navigation/screen-planning.html?
+ utm_source=udacity&utm_medium=course&utm_campaign=android_basics#diagram-relationships
+
+ <-------------------------------------------------Up button -------------------------------------------------------->
+	udacity -- https://classroom.udacity.com/courses/ud839/lessons/7876183922/concepts/81388905930923
+	android -- https://developer.android.com/training/implementing-navigation/ancestral.html
+			-- https://developer.android.com/training/design-navigation/ancestral-temporal.html
+			-- https://developer.android.com/design/patterns/navigation.html
+			
+			
+	Gihub before -- https://github.com/udacity/ud839_Miwok/commit/e473c0564ed9b4c2576c2cf9654443fe569bd7f9
+		  after -- https://github.com/udacity/ud839_Miwok/tree/e473c0564ed9b4c2576c2cf9654443fe569bd7f9
+		  
+
+EXAMPLE
+		 <!-- Number Activity -->
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/category_numbers"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+		  
+<-------------------------------------------------Up button -------------------------------------------------------->
+
+	ANDROID DEVELOPMENT PATTERNS -- https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM

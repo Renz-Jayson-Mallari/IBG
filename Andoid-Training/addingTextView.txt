@@ -1,0 +1,9 @@
+Adding textView on java
+
+	LinearLayout rootView = (LinearLayout) findViewById(R.id.root_view);
+	
+	TextView wordView = new TextView(this);
+	wordView.setText(words.get(x));
+	
+	
+	rootView.addView(wordView);

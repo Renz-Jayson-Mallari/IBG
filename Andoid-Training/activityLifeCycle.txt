@@ -1,0 +1,3 @@
+ACTIVITY LIFE CYCLE
+
+	created --> started --> resumed -- user is interacting with the app -- paused -->stopped -- destroyed

@@ -1,0 +1,59 @@
+Array List
+
+http://beginnersbook.com/2013/12/java-arraylist/
+
+https://developer.android.com/reference/java/util/List.html
+
+example
+	
+		ArrayList<String> restaurantToTry = new ArrayList<String>();
+		
+to add element example
+		
+		restaurantToTry.add("Morning Cafe");
+		restaurantToTry.add("BBQ Time");
+		
+to remove element from the ArrayList
+
+		restaurantToTry.remove("Morning Cafe");
+		
+to check the length
+
+		restaurantToTry.size();
+		
+to get the value per indexes
+
+		restaurantToTry.get(x);
+		
+		
+		 ArrayList<String> words  = new ArrayList<String>(
+            Arrays.asList("one", "two" , "three" , "four" , "five" , "six" , "seven" , "eight" , "nine" ,"ten"));
+			
+			
+			 public void display(){
+        LinearLayout rootView = (LinearLayout) findViewById(R.id.root_view);
+
+
+        for (int x=0; x<words.size(); x++){
+            TextView wordView = new TextView(this);
+            wordView.setText(words.get(x));
+            rootView.addView(wordView);
+        }
+    }
+	
+	
+	
+	
+	ArrayList<Word> words  = new ArrayList<Word>(
+                Arrays.asList(
+                        new Word("one","lutti"),
+                        new Word("two","otiiko"),
+                        new Word("three","tolooksu"),
+                        new Word("four","oyyisa"),
+                        new Word("five","massokka"),
+                        new Word("six","temmokka"),
+                        new Word("seven","kenekaku"),
+                        new Word("eight","kawinta"),
+                        new Word("nine","wo'e"),
+                        new Word("ten","na'aacha")
+                ));

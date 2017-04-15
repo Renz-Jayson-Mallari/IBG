@@ -1,0 +1,26 @@
+upbar from activity to fragment
+
+  @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        super.onOptionsItemSelected(item);
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return true;
+    }
+	
+	
+	     // display up button
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+		
+		
+fixed icon for landscape 
+on tablayout Add the following
+ app:tabGravity="center"
+        app:tabMode="fixed"
+		
+
+layoutOrientation--saveand restore		android:configChanges="screenSize|orientation|screenLayout"

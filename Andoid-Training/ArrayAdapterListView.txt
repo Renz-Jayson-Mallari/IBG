@@ -1,0 +1,30 @@
+ListView ArrayAdapter
+
+Codepath tutorial-- https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView
+Google i/o youtube -- https://www.youtube.com/watch?v=wDBM6wVEO70
+
+    ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
+
+    ListView listView = (ListView) findViewById(R.id.list);
+
+    listView.setAdapter(itemsAdapter);
+	
+	
+	
+PUBLIC CONSTRUCTORS -- 
+	ArrayAdapter(Context context ,int resources(layoutFile), List<T> objects);
+	ArrayAdapter(NumbersActivity ,android.R.layout, words);
+	ArrayAdapter(this ,android.R.layout, words);
+	
+USE ARRAYLIST AS GENERICS
+	ArrayList<E> instead of ArrayList<Sting or int>
+	ArrayAdapter<T> instead of ArrayAdapter<String or int>
+	
+	ArrayAdapter can be used with:
+	1. ListView
+	2. GridView
+	3. Spinner(dropdown menu)
+	
+	GridView Article --  https://developer.android.com/guide/topics/ui/layout/gridview.html
+	
+	LIST OF PRE DEFINED LAYOTU -- https://developer.android.com/reference/android/R.layout.html

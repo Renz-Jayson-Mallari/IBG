@@ -1,0 +1,42 @@
+tabs --- tab name
+	-- https://classroom.udacity.com/courses/ud839/lessons/7876183922/concepts/81408285600923
+	
+	Now let’s add tabs so the user can tell that there are more pages to swipe to.
+
+First you’ll need to use the Android Design Support Library. This helps you create a Material Design app that runs even on older versions of Android. 
+Learn more about the support library in this blogpost. There are periodic updates to the support library, so you can check this site for the latest 
+updates or subscribe to the Android Developers blog.
+Add Android Design Support Library to Your Project
+
+1) In Android Studio, within the Project Directory pane, navigate to Miwok > app > build.gradle and open the build.gradle file.
+
+Gradle is the tool that Android Studio uses to generate the apk (app file) that goes onto the device. 
+For more info on configuring the build.gradle file, see this article. There’s also an advanced Udacity course on this topic, 
+so don’t worry if you don’t understand it now.
+
+build dot gradle file
+
+2) This build.gradle file contains information about how your app should be packaged. Go to the dependencies section, 
+and add a line that includes the Android Support Design Library. This indicates that our app depends on the Android Design Library, 
+and that our Miwok app code can now refer to components within the design library.
+
+compile 'com.android.support:design:23.3.0'
+
+Afterwards, it should look similar to this:
+
+dependencies {
+   compile fileTree(dir: 'libs', include: ['*.jar'])
+   testCompile 'junit:junit:4.12'
+   compile 'com.android.support:appcompat-v7:23.2.1'
+   compile 'com.android.support:support-v4:23.2.1'
+   compile 'com.android.support:design:23.3.0'
+}
+
+3) You will see a yellow warning at the top of your file saying that the Gradle file has changed and a project sync is needed. Click the “Sync Now” button.
+
+build dot gradle warning
+
+Now you can start using components from the Android Design Support Library, such as the TabLayout for the Viewpager!
+
+In this next coding task, modify the app to add tabs to your ViewPager in the MainActivity. This is what the app should look like when you’re done. You can consult this Codepath tutorial for help.
+

@@ -1,0 +1,6 @@
+debugging using log
+
+https://developer.android.com/studio/command-line/logcat.html#logClass
+
+Log.v("NumbersActivity", "this is the message on index 0" + index[0];
+

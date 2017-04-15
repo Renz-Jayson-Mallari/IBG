@@ -1,0 +1,31 @@
+fragment guide
+
+-- guide for fragment
+	
+	https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+	
+UDACITY -- introduction mUST read
+		-- https://classroom.udacity.com/courses/ud839/lessons/7876183922/concepts/80895884160923
+			source
+				-- https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Design
+			UI/UX
+				-- https://developer.android.com/training/basics/fragments/fragment-ui.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+			Fragment Devloper guide
+				-- https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basic
+			Handling the fragment life cycle
+				-- https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Lifecycle
+			Build a dynamic UI fragment
+				-- https://developer.android.com/training/basics/fragments/index.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+				
+FRAGMENT COMPARISON TO ACTIVITY
+			-- https://classroom.udacity.com/courses/ud839/lessons/7876183922/concepts/81537585740923
+			
+CONVERTING ACTIVITY TO FRAGMENT
+		-- https://classroom.udacity.com/courses/ud839/lessons/7876183922/concepts/81537585740923
+		github
+			-- https://github.com/udacity/ud839_Miwok/blob/d7effcef3bf7fdccdd045c974d67abd5b960fae7/app/src/main/java/com/example/android/miwok/NumbersFragment.java
+			
+PERFORMING FRAGMENT TRANSACTION
+		-- https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Transactions
+		github
+			-- https://github.com/udacity/ud839_Miwok/commit/1db4f0cd8d8099451731bf41c4b67f776a90d231

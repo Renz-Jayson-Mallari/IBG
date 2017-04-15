@@ -1,0 +1,74 @@
+Course link https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803
+Part 4 Android Basics: Multiscreen Apps?
+Dictionary for the project -- https://docs.google.com/document/d/16sQ-0r5zMrdRXUwOaYbTLNXADasuSYFpy7K0Bn8oVfg/pub?embedded=true
+
+Color.xml
+-	Assign colors saves here
+Dimens.xml
+-	All dp, height and margin, padding.
+String
+	-all the string saves here.
+Style
+-	Calls the attribute from color,dimens, and string.
+
+Id naming
+Java – camel caes  ex .. camelCasingVarible
+Xml – underscore ex .. camel_casing_varibale
+
+Up to date --  compile 'com.android.support:appcompat-v7:24:2:1'
+Every app MUST have android manifest.xml file
+
+OPENING A NEW PAGE EXAMPLE
+
+context mean the current state or page of the app.
+
+
+	2 types of intent
+		1.implicit intent
+			-- when we dont care which app will handle the intent.
+		2.explicit intent
+			-- when we know EXACTLY which app shuld handle the intent.
+	
+IMPLICIT	
+	 Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:"));
+        intent.putExtra(intent.EXTRA_SUBJECT, subject(name));
+        intent.putExtra(intent.EXTRA_TEXT, output);
+
+        if (intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }
+	
+EXPLICIT
+	public void openNumbersList(View view) {
++        Intent i = new Intent(this, NumbersActivity.class);
++        startActivity(i);
++    }
+
+EVENT LISTENER -- https://developer.android.com/guide/topics/ui/ui-events.html
+
+INTERFACE -- no state, all method are abstract.
+		example publid void changeSummary(View view) -- always has View view.
+		abstract means like fill in the blank on like what you want to happen next.
+
+
+EXISTING CODE BASE-  code that already set when you join new team with the code they have already written before your joining.
+
+CHECKING THE APPS MEMORY CONSUME -- tools-->android-->Enable ADB integration (Android Debug bridge)
+
+translation -- https://docs.google.com/document/d/16sQ-0r5zMrdRXUwOaYbTLNXADasuSYFpy7K0Bn8oVfg/pub?embedded=true
+
+instruction -- https://classroom.udacity.com/courses/ud839/lessons/7709673667/concepts/78832374910923
+
+
+	STEPS ON MAKING CHANGER
+		1. do the riskiest parts first(to demonstrate the proof of concept)
+		2. Implement what can based on the available data
+			...use a placeholder data(fake data to be change when we gat the original data.)
+		
+ASSETS
+	--
+	logos,images, illustrations, media files, text documents.
+	
+	
+VISUAL POLISH -- make sure everything look good.

@@ -1,0 +1,28 @@
+
+Log Entry : 2:52:12 PM Sunday, November 13, 2016
+  :
+  :Started scan at11/13/2016 2:52:12 PM
+-------------------------------
+  :Starting scanning: Application paths
+  :Application paths
+  :Checking for invalid installer folders
+  :Checking for invalid application paths
+  :Bad Registry Key Found! Problem: "Invalid registry key" Path: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\dfshim.dll"
+  :Bad Registry Key Found! Problem: "Invalid registry key" Path: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\fsquirt.exe"
+  :Bad Registry Key Found! Problem: "Invalid registry key" Path: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\PPC-software"
+  :Finished scanning: Application paths
+  :Starting scanning: Windows fonts
+  :Windows fonts
+  :Scanning for invalid fonts
+  :Finished scanning: Windows fonts
+  :Starting scanning: Windows help files
+  :Windows help files
+  :Checking for missing help files in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\HTML Help
+  :Finished scanning: Windows help files
+  :User aborted scan... 
+  :Exiting.
+
+  :Total time elapsed: 15.4528049 seconds
+  :Total problems found: 0
+  :Total objects scanned: 500
+  :Finished scan at 11/13/2016 2:52:27 PM

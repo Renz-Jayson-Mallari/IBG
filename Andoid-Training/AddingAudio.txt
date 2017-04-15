@@ -1,0 +1,44 @@
+ADDING AUDIO
+
+modify the list item and add a play button
+handle the clicking function to play the audio
+add in all audio 
+modify the word class to add the audio resource id
+play the correct audio file
+visual polish
+
+
+FREE
+		https://www.youtube.com/audiolibrary/soundeffects
+		https://www.quora.com/Where-can-I-download-sound-effects-for-video-editing
+		
+		https://www.youtube.com/audiolibrary/music
+		
+		
+TUTORIAL -- http://www.tutorialspoint.com/android/android_mediaplayer.htm
+
+https://search.yahoo.com/yhs/search?p=hwere+to+get+an+entry+level+android+development+job+or+freelancing&ei=UTF-8&hspart=mozilla&hsimp=yhs-002
+
+documentation --- https://developer.android.com/reference/android/media/MediaPlayer.html
+
+
+dubugging --- https://classroom.udacity.com/courses/ud839/lessons/7863766808/concepts/81887887670923
+
+RELEASED MediaPlayer
+
+/**
+ * Clean up the media player by releasing its resources.
+ */
+private void releaseMediaPlayer() {
+    // If the media player is not null, then it may be currently playing a sound.
+    if (mMediaPlayer != null) {
+        // Regardless of the current state of the media player, release its resources
+        // because we no longer need it.
+        mMediaPlayer.release();
+
+        // Set the media player back to null. For our code, we've decided that
+        // setting the media player to null is an easy way to tell that the media player
+        // is not configured to play an audio file at the moment.
+        mMediaPlayer = null;
+    }
+}
