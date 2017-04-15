@@ -41,3 +41,22 @@ Edit ->Find->Replace
 		e.printStackTrace();
 		
 	}
+	
+	
+	Using Path
+	Using FileUtils
+	FileUtils.copyFile(soureFile,TargetFile);
+	
+	Using URL
+	
+	Creating a jar file 
+	file -> project structures -> artifacts -> + choose jars-> form modules with dependencies ->ok
+	
+	menu->build->buld artifacts
+	
+	Building web services with javaee
+	Developing Android Apps  Essential Training
+	Android Studio Essential Training
+	Building a Note-Taking App for Android
+	Android SDK: Local Data Storage
+	Building Mobile Apps  with Google Maps Android API v2
