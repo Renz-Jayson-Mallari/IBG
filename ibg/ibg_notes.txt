@@ -1,0 +1,25 @@
+homework@ibgsoftware.com
+homework@ibgsoftware.com
+homework@Ibgsoftware.com
+
+proof of running program...
+
+9:08 PM: already done eclipse:  Write a program that accepts your birthday and outputs it to the screen . send snapshot to homework@Ibgsoftware.com
+
+
+
+Road Map
+-- Vocab /performance gates
+-- Java / Eclipse
+-- Unix
+-- Front End
+-- Back End
+-- Network
+-- Middleware/ Cloud
+-- Split(developers/admins)
+
+Develop a java program that takes input from a person
+, changes it , and shows how it changed.
+
+
+flash card --> https://quizlet.com/215365044/ibg-vocabulary-1-flash-cards/

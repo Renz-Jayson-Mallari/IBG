@@ -1,0 +1,29 @@
+IBG 7-6-2017 meeting number 4
+
+Object Oriented 
+		--> defining objects.
+		--> doing things with objects.
+		
+		--> technique for system modeling.
+		--> creating object that is interacting with one another.
+		
+Object ex.
+	Abu Bakar
+	House
+
+Interactions ex.
+	Abu Bakar lives in the house
+	
+	
+Advantages
+--> easy to develop
+--> easy to understand
+
+
+State --> attributes
+	ex . Name Age
+behavior --> operations
+	ex. Walks Eats
+identity		
+	ex. His Name
+	

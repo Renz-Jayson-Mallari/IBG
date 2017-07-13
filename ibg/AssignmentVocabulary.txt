@@ -1,0 +1,101 @@
+Assignment Vocabularies
+
+RAM --> (Random Access Memory). When data or information is temporarily being stored when a program is being used.
+
+CPU --> (Central Processing Unit). Brain of the computer.
+
+HEAP --> area of memory used for dynamic memory allocation.
+
+Java --> is a high level programming language originally developed by Suns microsystem.
+
+Javac --> Java programming language compiler.
+
+Compiler --> a program which perform the process of compilation on a program written in a high level programming language.
+
+Java Interpreter --> decodes and execute the bytecodes for the JVM.
+
+Class --> template/blueprint that describes the behavior/state .
+
+Method --> a function defined in a class.
+
+Variable --> is a storage or value holder. In java variable has specific data type.
+
+Ssh --> Secure Shell. Secure communication line between two communication device.
+
+Sftp --> SSH File Transfer protocol. Is a network protocol that provides file transfer and manipulation over any reliable data stream.
+
+Scp --> Secure Copy . Securely transferring computer file between local and remote host or two remote host.
+
+Linux --> an open source operating system.
+
+Windows --> computer operating system that use graphic user interface(GUI).
+
+JVM --> Java Virtual Machine.  allows java code to be compiled into bytecodes to run on any computer that has a native JVM.
+
+Thread Dump --> is way of finding out what every thread in the JVM is doing at a particular point of time.
+
+JRE --> Java Runtime Environment . is a set software tools for development of Java application.
+
+JDK --> Java Development Kit. is a software development environment used for developing Java applications and applets.
+
+SDK --> Software Development Kit. set of software development tools that allows the creation of application.
+
+API --> Application Program Interface . is a set of routines, protocols, and tools for building software application.
+
+Eclipse --> is a IDE --< Integrated Developement Environment >--  used in computer programming. Contains workspace and lots of plugins for customizing the environment.
+
+System.out --> System is a class . out is a static member of System class.
+
+Polymorphism --> ability of an object to take many forms.
+
+Inheritance --> the process when a class aquired property (method or field) from another class.
+
+Interface --> the way the user interact with computer.
+
+Abstract class --> classes that contains abstracty methods.
+
+Static variable --> variable that belongs to the class and NOT to the object.
+
+Case/switch --> is a control flow of program execution via multi branch.
+
+If / else --> is a control flow that when the if statement is true then the block of code inside the statement will be excuted and if false it will test the next statement. And execute if the condition is satisfy.
+
+Boolean --> variable with tow possible value "true/false".
+
+Int --> 32-bit signed two's complement integer, which has a minimum value of -2^31 and a maximum value of 2^31-1.
+
+Long --> 64-bit signed two's complement integer. The signed long has a minimum value of -2^63 and a maximum value of 2^63-1
+
+Short --> 16-bit signed two's complement integer. It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).
+
+Char --> The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
+
+String --> In Java String are objects, and its used to create and manipulate strings.
+
+main --> entry point in java. Whenever the program is called it will executes the main method first.
+
+import --> allows our program to reffer to classes which are declared in other packages to be accessed without reffering to the full package name.
+
+package --> A package is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer.
+
+inner class --> a class inside of a class.
+
+array --> collection of elements with the same type.
+
+arraylist --> supports dynamic array that can grow as needed.
+
+hashmap --> The HashMap class uses a hashtable to implement the Map interface. This allows the execution time of basic operations, such as get( ) and put( ), to remain constant even for large sets.
+
+collections class -->  is an object that can hold references to other objects.
+
+vector --> Vector implements a dynamic array.
+
+hashset --> It creates a collection that uses a hash table for storage.
+
+Exception --> An exception (or exceptional event) is a problem that arises during the execution of a program.
+
+Console -->  is be used to get input from console. It provides methods to read texts and passwords.
+
+Gargage collection -->  is a program which runs on the Java Virtual Machine which gets rid of objects which are not being used by a Java application anymore. 
+
+public --> A class, method, constructor, interface, etc. declared public can be accessed from any other class. 
